@@ -1,0 +1,41 @@
+#navbar {
+    background-color: #FFFFFF;
+    height: 5%;
+}
+
+.navbar-brand img {
+    border-radius: 20px;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bg-theme {
+    background-color: #54737e;
+}
+
+.emphasise {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #54737e;
+}
+
+#user_guide .container {
+    width: 100%;
+}
+
+#user_guide .container iframe {
+    margin: 0 10% 0 10%;
+    min-height: 450px;
+}
+
+.publication-card .card-body .card-title {
+    margin-bottom: 1%;
+}
+
+.publication-card .card-body .card-text {
+    color: #54737e;
+}
