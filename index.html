@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edvance &#8211; Empowering All to Thrive</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            <img src="logo.JPG" alt="Edvance Logo" height="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" data-anchor="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" data-anchor="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" data-anchor="#user_guide">User Guide</a></li>
+                <li class="nav-item"><a class="nav-link" data-anchor="#publication">Publications</a></li>
+                <li class="nav-item"><a class="nav-link" data-anchor="#team">Our Team</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="home" class="bg-theme text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Welcome to Edvance</h1>
+        <p class="lead">Turning AI-Powered Learning Analytical Insights into Actionable Feedback</p>
+        <a class="btn btn-lg btn-light mt-3" id="collaborate" data-anchor="#contact">Collaborate with Us</a>
+    </div>
+</header>
+
+<!-- Features Section -->
+<section id="features" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Features</h2>
+        <div class="row g-4">
+            <div class="col-md-6 text-right">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Predictive Analytics</h5>
+                        <p class="card-text">Utilising AI-powered analytics to identify students at-risk of failing <span class="emphasise">timely</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Prescriptive Analytics</h5>
+                        <p class="card-text">Harnessing Explainable Artificial Intelligence to produce <span class="emphasise">personalised</span> insights for
+                            improving academic performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Actionable Feedback</h5>
+                        <p class="card-text">Leveraging cutting-edge Large Language Models to enable <span class="emphasise">actionable</span>
+                            feedback from the prescriptive analytics.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Analytical Dashboard</h5>
+                        <p class="card-text"><span class="emphasise">Tracking</span> engagement and performance with powerful visualisations, <span class="emphasise">planning</span> and <span class="emphasise">monitoring</span> own learning with interactive interface.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- User Guide Section -->
+<section id="user_guide" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">User Guide</h2>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQZeOutWwlJyPM6HdjOPdWPOKphIE1UwsaKwNq4nJz0x-J8Lp0lOBNYz7GtU1n1lBVxp1C8pXdNIjjQ/pubembed?start=true&loop=true&delayms=60000" frameborder="0" width="80%" height="auto" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+</section>
+
+<section id="publication" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Publications</h2>
+        <div class="row row-cols-1 g-4">
+            <div class="col-md-8 mx-auto">
+            <div class="card publication-card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Towards the Automated Generation of Readily Applicable Personalised Feedback in Education
+                </h5>
+                <p class="card-text">
+                  <strong>Authors:</strong> Zhiping Liang, Lele Sha, Yi-Shan Tsai, Dragan Gašević and Guanliang Chen
+                </p>
+                <p class="card-text">
+                    <strong>Abstract:</strong> Providing personalised feedback to a large student cohort is a longstanding challenge in education. Recent work in prescriptive learning analytics (PLA) demonstrated a promising approach by augmenting predictive models with prescriptive capabilities of explainable artificial intelligence (XAI). Although theoretically sound, in practice, not all predictive features can be leveraged by XAI to prescribe useful feedback. It remains under-explored as to how to engineer such predictive features that can be used to prescribe personalised and actionable feedback. To address this, we proposed a learning activity-based approach to design features that are informative to both predictive and prescriptive performance in PLA. We conducted empirical evaluations of the quality of PLA-generated feedback compared to feedback written by experienced teachers in a large-scale university course. Four rubric criteria, including Readily Applicablility, Readability, Relational, and Specificity, were designed based on previous research. We found that: (i) By adopting learning activity-based features, PLA generates high quality feedback without sacrificing predictive performance; (ii) Most experienced teaching staff rated PLA-generated feedback as readily applicable to the course; and (iii) Compared to teacher-written feedback, the quality of PLA-generated feedback is consistently rated higher (with statistical significance) in all four rubric criteria by experienced teachers. All code is available via our <a href="https://github.com/CoLAMZP/AIED-2024-AutoFeedback">GitHub repository</a>.
+                </p>
+                <p>
+                  <strong>DOI:</strong>
+                  <a href="https://doi.org/10.1007/978-3-031-64299-9_6" target="_blank">https://doi.org/10.1007/978-3-031-64299-9_6</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section id="team" class="bg-light py-5 text-center">
+    <div class="container">
+        <h2>Our Team</h2>
+        <div class="row g-4">
+            <div class="col-md-4 text-center">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="user.jpg" alt="User Avatar" height="120" width="auto">
+                        <h5 class="card-title">Dr. Guanliang Chen</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="user.jpg" alt="User Avatar" height="120" width="auto">
+                        <h5 class="card-title">Prof. Dragan Gašević</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="user.jpg" alt="User Avatar" height="120" width="auto">
+                        <h5 class="card-title">Yuheng Li</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img src="user.jpg" alt="User Avatar" height="120" width="auto">
+                        <h5 class="card-title">Zhiping Liang</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <h4>For Collaboration or Further Enquiry</h4>
+        <p id="contact">Please contact Dr. Guanliang Chen at <a href="mailto:guanliang.chen@monash.edu">guanliang.chen@monash.edu</a></p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-theme text-white py-4">
+    <div class="container text-center">
+        <p>© 2025 Edvance. All rights reserved.</p>
+        <p>
+            <a href="/user/privacy_policy" class="text-white me-3">Privacy Policy</a>
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Example jQuery: smooth scrolling for anchor links
+    $('a.nav-link, #collaborate').on('click', function (event) {
+        console.log($(this).data());
+        if ($(this).data("anchor") !== '') {
+            event.preventDefault();
+            const target = $(this).data("anchor");
+            $('html, body').animate({scrollTop: $(target).offset().top - 70}, 600);
+        }
+    });
+</script>
+</body>
+</html>
