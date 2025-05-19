@@ -94,7 +94,7 @@
     </div>
 </section>
 
-<section id="publication" class="py-5">
+<!--<section id="publication" class="py-5">
     <div class="container">
         <h2 class="text-center mb-4">Publications</h2>
         <div class="row row-cols-1 g-4">
@@ -119,7 +119,7 @@
           </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Call to Action Section -->
 <section id="team" class="bg-light py-5 text-center">
@@ -181,6 +181,18 @@
     // Example jQuery: smooth scrolling for anchor links
     $('a.nav-link, #collaborate').on('click', function (event) {
         console.log($(this).data());
+        $('a.nav-link').removeClass("active");
+        $(this).addClass("active");
+        if ($(this).data("anchor") !== '') {
+            event.preventDefault();
+            const target = $(this).data("anchor");
+            $('html, body').animate({scrollTop: $(target).offset().top - 70}, 600);
+        }
+    });
+    $('#collaborate').on('click', function (event) {
+        console.log($(this).data());
+        $('a.nav-link').removeClass("active");
+        $("#collaborate").addClass("active");
         if ($(this).data("anchor") !== '') {
             event.preventDefault();
             const target = $(this).data("anchor");
