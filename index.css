@@ -1,6 +1,7 @@
 #navbar {
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 255)!important;
     height: 5%;
+    border-bottom: 1px solid darkgray;
 }
 
 .navbar-brand img {
@@ -38,4 +39,58 @@
 
 .publication-card .card-body .card-text {
     color: #54737e;
+}
+
+.img-container.img {
+    width: 80%;
+}
+
+.info-img {
+    margin: 5%;
+    width: 90%;
+    border-radius: 50px;
+}
+
+.vertical-img {
+    width: 80%;
+}
+
+.hero-img {
+    border-radius: 0;
+}
+
+#access {
+    border-radius: 25px;
+    font-size: 1.15rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 155px;
+    height: 175px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.avatar-container {
+    width: 100%;
+    height: auto;
+    margin: 5% 0 1% 0;
+}
+
+.icon {
+    width: 85%;
+    margin: auto;
+}
+
+/* Hover effect for feature rows */
+#features .container .content-row {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+#features .container .content-row:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    background-color: white;
 }
