@@ -84,13 +84,12 @@
     margin: auto;
 }
 
-/* Hover effect for feature rows */
-#features .container .content-row {
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+.lead {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 1.35rem;
 }
 
-#features .container .content-row:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    background-color: white;
+.descriptive-text {
+    font-size: 1.7rem;
 }
